@@ -17,4 +17,12 @@ public class SumDigitsRecrsion {
         int sum=sumDigit(num);
         System.out.println("Sum of digit is:"+sum);
     }
+ public static void main(String[] args) {
+        Scanner Sc=new Scanner(System.in);
+        System.out.println("Enter the number");
+        int num=Sc.nextInt();
+        //System.out.println("the sum of digit is:"+ SumDigit(n));
+        int sum=sumDigit(num);
+        System.out.println("Sum of digit is:"+sum);
+    }
 }
